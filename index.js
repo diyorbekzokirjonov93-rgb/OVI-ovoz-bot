@@ -6,7 +6,7 @@ require("dotenv").config();
 const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 
 if (!TOKEN) {
-  console.error("XATO: .env faylida BOT_TOKEN topilmadi!");
+  console.error("XATO: .env faylida TELEGRAM_BOT_TOKEN topilmadi!");
   process.exit(1);
 }
 
