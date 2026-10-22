@@ -3,7 +3,7 @@ const { Telegraf, Markup } = require("telegraf");
 const fs = require("fs");
 require("dotenv").config();
 
-const TOKEN = process.env.TELEGRAM_BOT_TOKEN;N;
+const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 
 if (!TOKEN) {
   console.error("XATO: .env faylida BOT_TOKEN topilmadi!");
